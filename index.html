@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+
+
+<style>
+
+
+.carousel-item{
+    background-color: rgba(0, 255, 255, 0);
+    height: 45rem;
+    max-height: 45rem;
+}
+
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+}
+</style>
+
+
+
+
+
+</head>
+<body class="bg-primary">
+<div class="header bg-black text-white">
+    <div class="container">
+        <div class="navbar">
+            <h1>Logo <span>Car</span></h1>
+    
+            <button data-bs-toggle="collapse" data-bs-target="#menu" type="button" class="navbar-toggler">
+                <span class="navbar-toggler-icon bg-white "></span>
+            </button>
+
+            <!-- class colapse para ele sumir -->
+            <nav class="collapse navbar-collapse" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li>
+                        <a class="nav-link text-white" href="">Inicio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-white" href="">Produtos</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-white" href="">Carros</a>
+                    </li>
+                    <li>
+                        <a class="nav-link text-white" href="">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<div class="container mt-5">
+    <div data-bs-ride="carousel" id="carousel-exemplo" class="carousel carousel-show slide w-100">
+        <div class="carousel-inner">
+            <div data-bs-interval="3000" class="carousel-item active">
+                <img src="https://i.pinimg.com/564x/a4/89/ff/a489ff86c6cc2b817e36759eec53ca23.jpg" alt="">
+            </div>
+            <div data-bs-interval="3000" class="carousel-item ">
+                <img src="https://i.pinimg.com/564x/bf/6b/21/bf6b2184974f5f5bd3e2f209770fbc3d.jpg" alt="">
+            </div>
+            <div data-bs-interval="3000" class="carousel-item ">
+                <img src="https://i.pinimg.com/736x/04/fc/00/04fc00cddcc3e4eb4b5183a04a0e9f67.jpg" alt="">
+            </div>
+        </div>
+    
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+    
+        
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="container pb-5">
+<div class="row mt-5">
+    <div class="col-lg-4 col-sm-12 col-md-6 ">
+        <div class="card mx-auto mt-3" style="width: 18rem;">
+            <img src="https://i.pinimg.com/564x/11/4a/ed/114aedd0ece5317378a218bc1f71ad8e.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-12 col-md-6 ">
+        <div class="card mx-auto mt-3" style="width: 18rem;">
+            <img src="https://i.pinimg.com/736x/00/cb/45/00cb45d03fb1cdc6487699338b91b670.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+    </div>
+
+    <div class="col-lg-4 col-sm-12 col-md-6 ">
+        <div class="card mx-auto mt-3" style="width: 18rem;">
+            <img src="https://i.pinimg.com/736x/bb/b6/f4/bbb6f4c43cf581720d6d766722f7dbc6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+    </div>
+</div>
+</div>
+
+
+
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
